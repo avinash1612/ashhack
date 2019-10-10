@@ -1,0 +1,2 @@
+print('Avinash')
+print('Amrita')
