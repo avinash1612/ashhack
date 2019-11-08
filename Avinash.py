@@ -1,2 +1,3 @@
 print('Avinash')
-print('Amrita')
+print('Amrita Vishwa Vidyapeetham')
+print('India')
