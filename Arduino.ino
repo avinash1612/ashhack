@@ -2,7 +2,7 @@ int timer = 100;
 int ledPins[] = {
   2, 7, 4, 6, 5, 3
 };       
-int pinCount = 6;           
+int pinCount = 7;           
 
 void setup() {
   for (int thisPin = 0; thisPin < pinCount; thisPin++) {
@@ -26,6 +26,6 @@ void loop() {
     
     digitalWrite(ledPins[thisPin], HIGH);
     delay(timer);
-    digitalWrite(ledPins[thisPin], LOW);
+    digitalWrite(ledPins[thisPin], HIGH);
   }
 }
